@@ -81,7 +81,7 @@ const Navbar = () => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <header className="bg-white shadow-md sticky top-0 z-10">
+            <headerx className="bg-white shadow-md sticky top-0 z-10">
                 <div className="container mx-auto px-4 py-4">
                     <div className="flex items-center justify-between">
                         {/* Logo */}
@@ -163,7 +163,7 @@ const Navbar = () => {
                         </nav>
                     </div>
                 )}
-            </header>
+            </headerx>
 
             {/* Hero Section */}
             <section className="bg-blue-500 text-white py-16" id='home'>
