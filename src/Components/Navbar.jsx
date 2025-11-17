@@ -12,7 +12,7 @@ const Navbar = () => {
             id: 1,
             name: "Margherita Pizza",
             description: "Classic tomato sauce and mozzarella",
-            price: 12.99,
+            // price: 12.99,
             rating: 4.8,
             category: "pizza",
             image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
@@ -21,7 +21,7 @@ const Navbar = () => {
             id: 2,
             name: "Beef Burger",
             description: "Juicy beef patty with fresh vegetables",
-            price: 9.99,
+            // price: 9.99,
             rating: 4.5,
             category: "burger",
             image: "https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
@@ -30,7 +30,7 @@ const Navbar = () => {
             id: 3,
             name: "Caesar Salad",
             description: "Fresh romaine with Caesar dressing",
-            price: 8.99,
+            // price: 8.99,
             rating: 4.3,
             category: "salad",
             image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
@@ -39,7 +39,7 @@ const Navbar = () => {
             id: 4,
             name: "Sushi Platter",
             description: "Assorted fresh sushi and sashimi",
-            price: 24.99,
+            // price: 24.99,
             rating: 4.9,
             category: "sushi",
             image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
@@ -48,7 +48,7 @@ const Navbar = () => {
             id: 5,
             name: "Chicken Wings",
             description: "Crispy wings with your choice of sauce",
-            price: 10.99,
+            // price: 10.99,
             rating: 4.6,
             category: "appetizer",
             image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
@@ -57,7 +57,7 @@ const Navbar = () => {
             id: 6,
             name: "Chocolate Cake",
             description: "Rich chocolate layered cake",
-            price: 6.99,
+            // price: 6.99,
             rating: 4.7,
             category: "dessert",
             image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
@@ -81,7 +81,7 @@ const Navbar = () => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <headerx className="bg-white shadow-md sticky top-0 z-10">
+            <header className="bg-white shadow-md sticky top-0 z-10">
                 <div className="container mx-auto px-4 py-4">
                     <div className="flex items-center justify-between">
                         {/* Logo */}
@@ -163,7 +163,7 @@ const Navbar = () => {
                         </nav>
                     </div>
                 )}
-            </headerx>
+            </header>
 
             {/* Hero Section */}
             <section className="bg-blue-500 text-white py-16" id='home'>
